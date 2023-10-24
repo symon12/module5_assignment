@@ -5,7 +5,6 @@ $lastname = $_POST["lastname"] ?? "";
 $email = $_POST["email"] ?? "";
 $password = $_POST["password"] ?? ""; 
 $age = $_POST["age"] ?? ""; 
-
 $role = "user";
 
 
