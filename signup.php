@@ -1,5 +1,28 @@
 <?php
 
+// $firstname = $_POST["firstname"] ?? "";
+// $lastname = $_POST["lastname"] ?? "";
+// $email = $_POST["email"] ?? "";
+// $password = $_POST["password"] ?? ""; 
+// $age = $_POST["age"] ?? ""; 
+// $role = "user";
+
+
+// $error = "";
+
+// if ($email != "" && $password != "") {  
+//     $fp = fopen("./file.txt", "a");
+//     $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+    
+//     fwrite($fp, "\n{$role}, {$email},{$hashedPassword}, {$password}, {$firstname}, {$lastname}, {$age}");
+//     fclose($fp);
+
+//     header("Location: signin.php");
+// }
+// else {
+//     $error = "Please enter you email and password!";
+// }
+
 $firstname = $_POST["firstname"] ?? "";
 $lastname = $_POST["lastname"] ?? "";
 $email = $_POST["email"] ?? "";
@@ -21,8 +44,6 @@ if ($email != "" && $password != "") {
 else {
     $error = "Please enter you email and password!";
 }
-
-
 ?>
 
 
@@ -78,4 +99,3 @@ else {
 </body>
 </html>
 
-dd

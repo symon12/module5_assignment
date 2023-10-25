@@ -1,5 +1,0 @@
-user, abc@gmail.com, pass123, Firstname, Lastname, 26
-admin, admin@gmail.com, 1234, Admin, admin, 27 
-user, farhan@gmail.com, 1234, Farhan, Sadaf, 25
-user, mdsymon703@gmail.com, symon1234, md, symon, 
-user, mdahsan@gmai.com, adsan123, md, ahsan, 

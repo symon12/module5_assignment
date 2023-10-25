@@ -50,8 +50,6 @@ for ($i = 0; $i < count($roles); $i++) {
 
 
 
-  c
-
 
 
 <!DOCTYPE html>

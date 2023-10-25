@@ -22,4 +22,4 @@ if (!isset($_SESSION["role"]) || $_SESSION["role"] != "user") {
     <a href="logout.php">Logout</a>
 
 </body>
-</html>d
+</html>
